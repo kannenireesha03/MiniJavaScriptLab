@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini JavaScript Lab</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🧪 Mini JavaScript Lab</h1>
+
+  <section class="tool">
+    <h2>BMI Calculator</h2>
+    <input id="bmiWeight" type="number" placeholder="Weight (kg)" />
+    <input id="bmiHeight" type="number" placeholder="Height (m)" />
+    <button onclick="calculateBMI()">Calculate</button>
+    <p id="bmiResult"></p>
+  </section>
+
+  <section class="tool">
+    <h2>Tip Calculator</h2>
+    <input id="billAmount" type="number" placeholder="Bill Amount" />
+    <input id="tipPercent" type="number" placeholder="Tip (%)" />
+    <button onclick="calculateTip()">Calculate</button>
+    <p id="tipResult"></p>
+  </section>
+
+  <section class="tool">
+    <h2>Age Checker</h2>
+    <input id="birthYear" type="number" placeholder="Enter Birth Year" />
+    <button onclick="checkAge()">Check Age</button>
+    <p id="ageResult"></p>
+  </section>
+
+  <section class="tool">
+    <h2>Countdown Timer</h2>
+    <input id="countdownInput" type="number" placeholder="Seconds" />
+    <button onclick="startCountdown()">Start</button>
+    <p id="countdownDisplay"></p>
+  </section>
+
+  <section class="tool">
+    <h2>Random Quote Generator</h2>
+    <button onclick="showQuote()">Get Quote</button>
+    <p id="quoteBox"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
